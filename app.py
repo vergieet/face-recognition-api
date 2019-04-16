@@ -22,8 +22,8 @@ app = Flask(__name__)
 class Database:
     def __init__(self):
         host = "localhost"
-        user = "apps"
-        password = "Apps*2013"
+        user = "root"
+        password = "my_password"
         db = "facerec_db"
 
         self.con = pymysql.connect(host=host, user=user, password=password, db=db, cursorclass=pymysql.cursors.
